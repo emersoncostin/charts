@@ -37,7 +37,7 @@ service:
 podAnnotations: {}
 
 # Add privileged init container to enable IPv4 forwarding
-ipForwardInitContainer: false
+ipForwardInitContainer: true
 
 resources:
   limits:
